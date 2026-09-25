@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General or business enquiry
+    url: https://sidelobe.dev/#contact
+    about: Contact Sidelobe for project, service or general enquiries.
+  - name: Security report
+    url: https://github.com/sidelobe-labs/.github/security/policy
+    about: Report suspected vulnerabilities privately using the security policy.
