@@ -15,7 +15,7 @@
 
 ---
 
-Sidelobe builds focused products and on-demand applications for workflows that do not fit off-the-shelf software. We turn specific operational problems into small, maintainable tools people can actually use.
+Sidelobe is an independent software studio building focused custom applications for workflows that do not fit off-the-shelf software. We turn specific operational problems into small, maintainable tools people can actually use.
 
 ### What we build
 
@@ -24,10 +24,6 @@ Sidelobe builds focused products and on-demand applications for workflows that d
 - **Workflow automation** that connects systems and removes repetitive work
 - **Product prototypes** designed to become production software, not throwaway demos
 - **Mobile applications** where the workflow belongs on the go
-
-### Products
-
-**KorpoAppka** — office presence and attendance planning without spreadsheet chaos. Currently in active development.
 
 ### Public repositories
 
