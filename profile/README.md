@@ -25,13 +25,6 @@ Sidelobe is an independent software studio building focused custom applications 
 - **Product prototypes** designed to become production software, not throwaway demos
 - **Mobile applications** where the workflow belongs on the go
 
-### Public repositories
-
-- [website](https://github.com/sidelobe-labs/website) — source for the Sidelobe website and deployment
-- [.github](https://github.com/sidelobe-labs/.github) — organization profile and shared repository defaults
-
-Product, infrastructure and internal brand repositories are private by design.
-
 ### Working principles
 
 **Focused scope. Production-minded from day one. Clear ownership.**
