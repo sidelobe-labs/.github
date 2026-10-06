@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Small software. Built properly.</strong><br>
+  <strong>Focused software. Open-source engineering.</strong><br>
   Independent software studio · Europe
 </p>
 
@@ -15,26 +15,42 @@
 
 ---
 
-Sidelobe is an independent software studio building focused custom applications for workflows that do not fit off-the-shelf software. We turn specific operational problems into small, maintainable tools people can actually use.
+Sidelobe builds focused software and developer tools around problems that deserve a smaller, clearer solution.
 
-### What we build
+Our public work starts with open source: narrow tools with explicit boundaries, maintainable code and evidence behind the claims they make.
 
-- **Custom web applications** for focused operational workflows
-- **Internal tools** that replace spreadsheet-heavy or manual processes
-- **Workflow automation** that connects systems and removes repetitive work
-- **Product prototypes** designed to become production software, not throwaway demos
-- **Mobile applications** where the workflow belongs on the go
+## Open source
 
-### Working principles
+### RuntimeTruth
 
-**Focused scope. Production-minded from day one. Clear ownership.**
+**Verify what your AI agent is actually running.**
 
-We prefer software that is understandable, maintainable and shaped around the real workflow rather than around a generic platform.
+RuntimeTruth is a local-first runtime verification and drift-detection CLI for AI agents. It captures evidence from declared, resolved and live runtime state, compares that state semantically, and can gate selected runtime invariants against a baseline.
+
+→ [sidelobe-labs/runtimetruth](https://github.com/sidelobe-labs/runtimetruth)
+
+Current public scope includes Codex runtime resolution, instruction fingerprints, MCP capability-surface evidence, semantic diff, selective verification and machine-readable CI reports.
+
+## How we build
+
+- **Evidence over inference** — say what can actually be established.
+- **Focused scope** — avoid turning every useful tool into a platform.
+- **Local-first where it matters** — useful OSS should not require an account or hosted control plane.
+- **Explicit boundaries** — security, privacy and support assumptions belong in the repository.
+- **Production-minded engineering** — tests, packaging, CI and release hygiene are part of the product.
+
+## Public-project boundary
+
+Public Sidelobe repositories are provided under the license stated in each repository.
+
+Unless a repository explicitly says otherwise, publishing an open-source project does not imply a hosted service, paid support plan, uptime commitment or SLA.
 
 ---
 
 <p align="center">
   <a href="https://sidelobe.dev">Website</a>
+  ·
+  <a href="https://github.com/sidelobe-labs">GitHub</a>
   ·
   <a href="mailto:hello@sidelobe.dev">Contact</a>
 </p>
