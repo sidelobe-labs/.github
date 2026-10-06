@@ -27,7 +27,7 @@ Our public work starts with open source: narrow tools with explicit boundaries, 
 
 RuntimeTruth is a local-first runtime verification and drift-detection CLI for AI agents. It captures evidence from declared, resolved and live runtime state, compares that state semantically, and can gate selected runtime invariants against a baseline.
 
-→ [sidelobe-labs/runtimetruth](https://github.com/sidelobe-labs/runtimetruth)
+→ [Case study](https://sidelobe.dev/open-source/runtimetruth/) · [Source](https://github.com/sidelobe-labs/runtimetruth) · [v0.1.0](https://github.com/sidelobe-labs/runtimetruth/releases/tag/v0.1.0)
 
 Current public scope includes Codex runtime resolution, instruction fingerprints, MCP capability-surface evidence, semantic diff, selective verification and machine-readable CI reports.
 
