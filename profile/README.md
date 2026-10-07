@@ -23,11 +23,11 @@ Our public work starts with open source: narrow tools with explicit boundaries, 
 
 ### RuntimeTruth
 
-**Verify what your AI agent is actually running.**
+**Runtime integrity verification for AI agents.**
 
 RuntimeTruth is a local-first runtime verification CLI for AI agents. It captures declared, resolved and live runtime evidence, compares that state semantically, gates selected invariants through an explicit verification policy, and can bind reviewed baselines to identity-backed Sigstore attestations.
 
-→ [PyPI](https://pypi.org/project/runtimetruth/) · [Case study](https://sidelobe.dev/open-source/runtimetruth/) · [Engineering note](https://artur.panek.tech/notes/ai-agent-config-vs-runtime/) · [Source](https://github.com/sidelobe-labs/runtimetruth) · [v0.2.0](https://github.com/sidelobe-labs/runtimetruth/releases/tag/v0.2.0)
+→ [PyPI](https://pypi.org/project/runtimetruth/) · [Case study](https://sidelobe.dev/open-source/runtimetruth/) · [Engineering note](https://artur.panek.tech/notes/ai-agent-config-vs-runtime/) · [Source](https://github.com/sidelobe-labs/runtimetruth) · [Releases](https://github.com/sidelobe-labs/runtimetruth/releases)
 
 Current public scope includes Codex runtime resolution, instruction fingerprints, MCP capability-surface evidence, semantic diff, persisted verification policy, canonical baseline digests, keyless Sigstore attestations and machine-readable CI reports.
 
