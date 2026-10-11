@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Focused software. Open-source engineering.</strong><br>
+  <strong>Custom software and open-source developer tools.</strong><br>
   Independent software studio · Europe
 </p>
 
@@ -15,35 +15,29 @@
 
 ---
 
-Sidelobe builds focused software and developer tools around problems that deserve a smaller, clearer solution.
-
-Our public work starts with open source: narrow tools with explicit boundaries, maintainable code and evidence behind the claims they make.
+Sidelobe builds web applications, internal tools and automation for teams. We also publish developer tools that came out of problems we encountered while building and running software.
 
 ## Open source
 
 ### RuntimeTruth
 
-**Runtime integrity verification for AI agents.**
+A command-line tool for checking Codex runtime state against a reviewed baseline. It can compare model settings, permissions and instruction-file fingerprints, and optionally verify a baseline signed with Sigstore.
 
-RuntimeTruth is a local-first runtime verification CLI for AI agents. It captures declared, resolved and live runtime evidence, compares that state semantically, gates selected invariants through an explicit verification policy, and can bind reviewed baselines to identity-backed Sigstore attestations.
+[PyPI](https://pypi.org/project/runtimetruth/) · [Project page](https://sidelobe.dev/open-source/runtimetruth/) · [Source](https://github.com/sidelobe-labs/runtimetruth) · [Releases](https://github.com/sidelobe-labs/runtimetruth/releases)
 
-→ [PyPI](https://pypi.org/project/runtimetruth/) · [Case study](https://sidelobe.dev/open-source/runtimetruth/) · [Engineering note](https://artur.panek.tech/notes/ai-agent-config-vs-runtime/) · [Source](https://github.com/sidelobe-labs/runtimetruth) · [Releases](https://github.com/sidelobe-labs/runtimetruth/releases)
+### PowerContract
 
-Current public scope includes Codex runtime resolution, instruction fingerprints, MCP capability-surface evidence, semantic diff, persisted verification policy, canonical baseline digests, keyless Sigstore attestations and machine-readable CI reports.
+Checks exported oscilloscope waveforms against electrical requirements written in YAML. Reports PASS, FAIL or INDETERMINATE with measurements, limits and margins. It reads capture files; it does not control the oscilloscope.
 
-## How we build
+[PyPI](https://pypi.org/project/powercontract/) · [Source and documentation](https://github.com/sidelobe-labs/powercontract) · [Releases](https://github.com/sidelobe-labs/powercontract/releases)
 
-- **Evidence over inference** — say what can actually be established.
-- **Focused scope** — avoid turning every useful tool into a platform.
-- **Local-first where it matters** — useful OSS should not require an account or hosted control plane.
-- **Explicit boundaries** — security, privacy and support assumptions belong in the repository.
-- **Production-minded engineering** — tests, packaging, CI and release hygiene are part of the product.
+## Working approach
 
-## Public-project boundary
+For client work, start with the task people need to complete and agree on the first useful version. Test it with the people who will use it and document how it is deployed and maintained.
 
-Public Sidelobe repositories are provided under the license stated in each repository.
+For public tools, keep the source, limitations, tests and release instructions available in the repository. Neither RuntimeTruth nor PowerContract requires a Sidelobe account or hosted service.
 
-Unless a repository explicitly says otherwise, publishing an open-source project does not imply a hosted service, paid support plan, uptime commitment or SLA.
+Open-source repositories have their own licenses and support policies. Publishing source code does not imply a hosted service or support agreement.
 
 ---
 
