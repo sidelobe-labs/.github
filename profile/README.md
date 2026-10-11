@@ -27,9 +27,9 @@ A command-line tool for checking Codex runtime state against a reviewed baseline
 
 ### PowerContract
 
-Checks exported oscilloscope waveforms against electrical requirements written in YAML. Reports PASS, FAIL or INDETERMINATE with measurements, limits and margins. It reads capture files; it does not control the oscilloscope.
+Map signals from waveform CSV files, define voltage and timing checks in YAML, and run them against new captures. Each requirement reports PASS, FAIL or INDETERMINATE with its measured value and margin.
 
-[PyPI](https://pypi.org/project/powercontract/) · [Source and documentation](https://github.com/sidelobe-labs/powercontract) · [Releases](https://github.com/sidelobe-labs/powercontract/releases)
+[Project page](https://sidelobe.dev/open-source/powercontract/) · [PyPI](https://pypi.org/project/powercontract/) · [Source and documentation](https://github.com/sidelobe-labs/powercontract)
 
 ## Working approach
 
